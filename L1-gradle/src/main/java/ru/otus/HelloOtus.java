@@ -9,7 +9,7 @@ import java.util.List;
 public class HelloOtus {
     public static void main(String[] args) {
 
-        List<String> items = Lists.newArrayList("Moscow", "Novosibirsk", "Perm", "Yekaterinburg", "Irkutsk", "Tomsk");
+        List<String> items = Lists.newArrayList("Moscow", "Novosibirsk", "Perm", "Yekaterinburg", "Irkutsk", "Tomsk", "Krasnoyarsk");
 
         Collection<String> result  = Collections2.filter(items,
                 Predicates.containsPattern("o"));
