@@ -62,6 +62,7 @@ public class Customer {
          if (this.id != customer.id) return false;
 
       //  return name != null ? name.equals(customer.name) : customer.name == null;
+
         return id == customer.id;
 
     }
@@ -70,6 +71,7 @@ public class Customer {
     @Override
     public int hashCode() {
         int result = (int) (id ^ (id >>> 32));
+
       //  result = 31 * result + (name != null ? name.hashCode() : 0);
        // result = 31 * result + (int) (scores ^ (scores >>> 32));
         return result;

@@ -13,7 +13,6 @@ public class CustomerReverseOrder {
     }
 
     public Customer take() {
-        //return null; // это "заглушка, чтобы скомилировать"
         customerH = ll.pollLast();
         return customerH;
     }

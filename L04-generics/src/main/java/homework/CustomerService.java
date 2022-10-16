@@ -57,18 +57,10 @@ public class CustomerService {
             customerH = (Customer) m.getValue();
         }
 
-
-        //System.out.println("In" + customer.getScores());
-
-
         return null; // это "заглушка, чтобы скомилировать"
     }
 
-  //  public void add(Customer customer, String data) {
   public void add(Customer customer, String data) {
-
-      //this.customer = customer;
-     // this.data = data;
         map.put(customer, data);
     }
 }

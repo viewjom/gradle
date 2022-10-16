@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'java-library'
     id 'com.github.johnrengelman.shadow'
 }
 
@@ -8,30 +7,19 @@ sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
 dependencies {
-   api 'com.google.guava:guava'
-    testImplementation('org.junit.jupiter:junit-jupiter-api')
-    testImplementation('org.junit.jupiter:junit-jupiter-engine')
-    testImplementation('org.junit.jupiter:junit-jupiter-params')
-    testImplementation('org.assertj:assertj-core:3.23.1')
-    testImplementation('org.mockito:mockito-core:4.8.0')
-    testImplementation('org.mockito:mockito-junit-jupiter:4.8.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
-}
+    implementation 'com.google.guava:guava'
+    implementation 'com.zaxxer:HikariCP'
 
-test{
-    useJUnitPlatform()
-    testLogging {
-        events "passed", "skipped", "failed"
-    }
+    implementation("org.springframework.data:spring-data-hadoop:2.0.0.RELEASE")
+    implementation("org.springframework:spring-tx:3.2.3.RELEASE")
 }
 
 shadowJar {
     archiveBaseName.set('gradleHelloWorld')
     archiveVersion.set('0.1')
     archiveClassifier.set('')
-    manifest{
-        attributes 'main-Class': 'ru.otus.HelloOtus'
+    manifest {
+        attributes 'Main-Class': 'ru.otus.App'
     }
 }
 
