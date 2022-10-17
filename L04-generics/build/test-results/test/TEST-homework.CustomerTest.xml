@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="homework.CustomerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-10-17T19:00:42" hostname="DESKTOP-FSKN9D7" time="0.136">
+  <properties/>
+  <testcase name="РџСЂРѕРІРµСЂСЏРµРј, С‡С‚Рѕ РєР»Р°СЃСЃ Customer РЅРµ СЃР»РѕРјР°РЅ" classname="homework.CustomerTest" time="0.079"/>
+  <testcase name="РћР±СЉРµРєС‚ Customer РєР°Рє РєР»СЋС‡ РІ РєР°СЂС‚Рµ" classname="homework.CustomerTest" time="0.002"/>
+  <testcase name="РњРѕРґРёС„РёРєР°С†РёСЏ РєРѕР»Р»РµРєС†РёРё" classname="homework.CustomerTest" time="0.002"/>
+  <testcase name="РЎРѕСЂС‚РёСЂРѕРІРєР° РїРѕ РїРѕР»СЋ score, РёС‚РµСЂР°С†РёСЏ РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ" classname="homework.CustomerTest" time="0.03"/>
+  <testcase name="Р’РѕР·РІСЂР°С‰Р°РЅРёРµ РІ РѕР±СЂР°С‚РЅРѕРј РїРѕСЂСЏРґРєРµ" classname="homework.CustomerTest" time="0.018"/>
+  <system-out><![CDATA[Data = Data1
+Data = Data2
+Data = Data3
+11 Customer{id=2, name='Petr', scores=11} Data2
+20 Customer{id=10, name='Key', scores=20} null
+233 Customer{id=1, name='Ivan', scores=233} Data1
+Выводим 233 Customer{id=1, name='Ivan', scores=233} Data1
+Data = Data1
+Data = Data2
+Data = Data3
+11 Customer{id=2, name='Petr', scores=11} Data2
+233 Customer{id=1, name='Ivan', scores=233} Data1
+888 Customer{id=3, name='Pavel', scores=888} Data3
+Выводим 888 Customer{id=3, name='Pavel', scores=888} Data3
+Data = Data1
+Data = Data2
+Data = Data3
+11 Customer{id=2, name='Petr', scores=11} Data2
+233 Customer{id=1, name='Ivan', scores=233} Data1
+888 Customer{id=3, name='Pavel', scores=888} Data3
+20000 Customer{id=100, name='Not exists', scores=20000} null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -2,7 +2,6 @@ package homework;
 
 
 import java.util.LinkedList;
-
 public class CustomerReverseOrder {
     private Customer customerH;
     //todo: 2. надо реализовать методы этого класса
@@ -13,7 +12,6 @@ public class CustomerReverseOrder {
     }
 
     public Customer take() {
-        //return null; // это "заглушка, чтобы скомилировать"
         customerH = ll.pollLast();
         return customerH;
     }

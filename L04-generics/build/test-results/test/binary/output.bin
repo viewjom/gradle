@@ -1,0 +1,21 @@
+Data = Data1
+Data = Data2
+Data = Data3
+111 Customer{id=2, name='Petr', scores=11} Data2
+020 Customer{id=10, name='Key', scores=20} null
+3233 Customer{id=1, name='Ivan', scores=233} Data1
+BВыводим 233 Customer{id=1, name='Ivan', scores=233} Data1
+Data = Data1
+Data = Data2
+Data = Data3
+111 Customer{id=2, name='Petr', scores=11} Data2
+3233 Customer{id=1, name='Ivan', scores=233} Data1
+4888 Customer{id=3, name='Pavel', scores=888} Data3
+CВыводим 888 Customer{id=3, name='Pavel', scores=888} Data3
+Data = Data1
+Data = Data2
+Data = Data3
+111 Customer{id=2, name='Petr', scores=11} Data2
+3233 Customer{id=1, name='Ivan', scores=233} Data1
+4888 Customer{id=3, name='Pavel', scores=888} Data3
+>20000 Customer{id=100, name='Not exists', scores=20000} null
