@@ -17,8 +17,6 @@ public class CustomerService {
 
 
         //Возможно, чтобы реализовать этот метод, потребуется посмотреть как Map.Entry сделан в jdk
-      //   return null; // это "заглушка, чтобы скомилировать"
-
 
         Scores = Long.MAX_VALUE;
         for(Customer d:  map.keySet()){
@@ -29,10 +27,6 @@ public class CustomerService {
                 customerH = d;
             }
         }
-
-      //  System.out.println("Scores =" + Scores);
-
-
 
         return  new AbstractMap.SimpleEntry(customerH,dataH);
     }

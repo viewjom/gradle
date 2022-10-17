@@ -53,7 +53,6 @@ public class Customer {
     @Override
     public boolean equals(Object o) {
 
-
       //  if (this == o) return true;
         if (  o == null || this.getClass() != o.getClass()) return false;
 
@@ -66,7 +65,6 @@ public class Customer {
         return id == customer.id;
 
     }
-
 
     @Override
     public int hashCode() {

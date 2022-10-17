@@ -2,7 +2,6 @@ package homework;
 
 
 import java.util.LinkedList;
-
 public class CustomerReverseOrder {
     private Customer customerH;
     //todo: 2. надо реализовать методы этого класса
