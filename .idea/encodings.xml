@@ -2,5 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/L04-generics/build.gradle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L04-generics/src/main/java/homework/Customer.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/L04-generics/src/main/java/homework/CustomerService.java" charset="windows-1251" />
+    <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>
